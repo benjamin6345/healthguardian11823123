@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 from collections import defaultdict
+import sklearn
 
 st.title("HeartGuardian")
 col1, col2 = st.columns(2)
